@@ -19,8 +19,8 @@ body {
 }
 
 .link-wrap {
-  //background-color: lightgreen;
   display: inline-block;
+  text-align: center;
   width: 6em;
   height: 1.5em;
   padding-top: 0.5em;
@@ -29,7 +29,6 @@ body {
 .nav-link {
   text-decoration: none;
   color: white;
-  margin-right: 1em;
 }
 
 .link-wrap:hover {
@@ -45,7 +44,6 @@ body {
 
 #welcome-section {
   grid-row: 2/3;
-  //align-self: center;
   justify-self: center;
   padding-top: 35vh;
   height: 100vh;
@@ -53,7 +51,7 @@ body {
 
 #presentation-text {
   text-align: center;
-  color: white;
+  color: yellow;
 }
 
 #description-text {
@@ -63,7 +61,6 @@ body {
 
 #projects {
   grid-row: 3/4;
-  //background-color: green;
   text-align: center;
   border-top-style: solid;
   border-color: hsl(0, 0%, 90%);
@@ -93,9 +90,6 @@ body {
   height: auto;
   width: 30vw;
   border-bottom-style: solid;
-}
-
-.project-tile figcaption {
 }
 
 #profile-link-wrap {
@@ -137,22 +131,15 @@ body {
 
 @media only screen and (max-width: 600px) {
   #navbar {
-  
   text-align: center;
-  
 }
   
-  .link-wrap {
-  
-}
-
   .nav-link {
   margin-right: 0;
 }
   
   #welcome-section {
   padding-top: 25vh;
-  
 }
   
   .project-tile {
@@ -172,5 +159,5 @@ body {
   width: 15vw;
   margin: 0.5em;
   margin-bottom: 4em;
-}
+  }
 }
